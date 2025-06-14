@@ -33,6 +33,9 @@ This is a redesign of my current WordPress website. Always preferred a custom bu
 | **Our Projects** | This page will show websites we've worked on in the past. |
 | **Golden Years Support** | This page will have information about our computers services available for the elderly. |
 | **Security Services** | This page will have information about our security services. Antivirus, VPN, 2FA, and Camera Security options we sell. |
+| **Accessibility Policy** | This page will discuss the Accessibility Policy. |
+| **Privacy Policy** | This page will discuss the Privacy Policy.|
+
 
 <h1>Capstone Requirements Fulfilled</h1>
 
