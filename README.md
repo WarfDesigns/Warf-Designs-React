@@ -39,7 +39,7 @@ This is a redesign of my current WordPress website. Always preferred a custom bu
 
 | Requirement | Implementation |
 |-------------|----------------|
-| **Retrieve data from a third-party API** | • Integrated NameSilo API for Domain Search<br>• Implemented captcha API for form. |
+| **Retrieve data from a third-party API** | • Integrated NameSilo API for Domain Search<br>• Implemented captcha API for form. |• Implemented The Maps Embed API for the website. |
 | **Develop your project using a common JavaScript framework such as React, Svelte, or Vue.** | • Developed my website using the framework React. |
 | **Use a regular expression to validate user input and either prevent the invalid input or inform the user about it (in all cases prevent invalid input from being stored or saved).** | • Created a form that does not allow submission without the correct characters. |
 | **Responsive Design** | • Implemented responsive layouts using a mix of Flexbox and Grid.<br>• Created media queries for different screen sizes<br>• Built with mobile-first approach |
@@ -115,3 +115,76 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 <p>  - Prepare the project for final presentation or submission to evaluators.</p>
 
 This outline provides a structured approach to developing a responsive web application focused on redesigning my website using a react framework. It includes steps for responsive design, feature implementation, data handling, advanced features, project development, review, and documentation to ensure the project meets all requirements and is attractive to potential employers or evaluators.
+
+<h1>Set it Up</h1>
+1. Set up: Before installing the application, you'll need to obtain these API keys:
+
+    A. NameSilo API: For NameSilo domain lookups; sign up at https://www.namesilo.com/login for an account.
+    Generate a read-only access API key @ https://www.namesilo.com/account/api-manager
+
+    B. The Maps Embed API (Google Cloud): 
+      1. Go to the Google Cloud Console: https://console.cloud.google.com/
+      2. Create a new project or select an existing one
+      3. Enable the The Maps Embed API:
+         - In the navigation menu, click "APIs & Services" > "Library"
+         - Search for "The Maps Embed API"
+         - Click "Enable"
+      4. Create credentials:
+         - Go to "APIs & Services" > Search for "The Maps Embed API"
+         - Click "Keys"
+         - You will use this API key when you create a `.env` file
+
+    C. reCAPTCHA (Google Cloud): 
+      1. Go to the Google Cloud Console: https://console.cloud.google.com/
+      2. Create a new project or select an existing one
+      3. Navigate to https://console.cloud.google.com/security/recaptcha.
+      3. Enable the reCAPTCHA API:
+         - In the navigation menu, click "APIs & Services" > "Library"
+         - Search for "reCAPTCHA"
+         - Click "Enable"
+         - If already enabled or can't locate it continue to https://console.cloud.google.com/security/recaptcha.
+      4. Create credentials:
+         - Go to https://console.cloud.google.com/security/recaptcha
+         - Click "Create Keys"
+         - Make the application type choose "Web".
+         - Under the domain list type "localhost".
+         - Then click on "Create Key".
+         - You will use this API key when you create a `.env` file
+
+
+
+
+2. **Clone the repository using GIT**
+   ```bash
+   git clone https://github.com/WarfDesigns/Warf-Designs-React.git
+   ```
+
+3. **Navigate to the project directory**
+   ```bash
+   cd Warf-Designs-React
+   ```
+
+4. **Install dependencies**
+   ```bash
+   npm install
+   ```
+5. **Create environment variables file**
+   Create a file named `.env` in the project root directory with the following content:
+
+   ```env
+   NUTRITIONIX_APP_ID=your_app_id_here
+   NAMESILO_API_KEY=your_api_key_here
+   THE_MAPS_EMBED_API_KEY=your_youtube_api_key_here
+   PORT=5500
+   ```
+
+6. **Start the server**
+   ```bash
+   npm run dev
+   ```
+
+7. **Access the application**
+   Open your browser and navigate to:
+   ```bash
+   http://localhost:5500
+   ```
