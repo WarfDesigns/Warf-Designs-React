@@ -1,9 +1,6 @@
-This is a redesign of my current WordPress website. Always preferred a custom built site with my own code; just never got around to actually having the time to do so.
-This website will show display all my services, have forms for customers to sign contract agreements, forms for appointment schedules, email notifications or sms messages to my phone to notify me, and more.
-I don't know off hand what else I want to add to it, but will add as I make it. It will also feature a app-like menu at the bottom of the screen for mobile devices, and use javascript to use html templates for the headers, footers, and app-menu to be located on every page of the website.
 
 
-# chronically-well
+<h1>Warf Designs Website Re-Design</h1>
 
 Overview:
 
@@ -11,7 +8,8 @@ A Code: You capstone project utilizing 3rd party API's while also highlighting H
 
 Project Overview:
 
-Most fitness applications lack accommodations for individuals with chronic illnesses, creating barriers to maintaining an active lifestyle. This project addresses the need for customizable, accessible fitness resources that considers ability levels and health issues.
+This is a redesign of my current WordPress website. Always preferred a custom built site with my own code; just never got around to actually having the time to do so. This website will show display all my services, have forms for customers to sign contract agreements, forms for appointment schedules, email notifications or sms messages to my phone to notify me, and more. It will also feature a app-like menu at the bottom of the screen for mobile devices, and use javascript to use html templates for the headers, footers, and app-menu to be located on every page of the website.
+
 
 
 ## Project Organization
