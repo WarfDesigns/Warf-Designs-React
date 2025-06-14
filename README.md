@@ -39,7 +39,7 @@ This is a redesign of my current WordPress website. Always preferred a custom bu
 
 | Requirement | Implementation |
 |-------------|----------------|
-| **Retrieve data from a third-party API** | • Integrated NameSilo API for Domain Search<br>• Implemented captcha API for form. |• Implemented The Maps Embed API for the website. |
+| **Retrieve data from a third-party API** | • Integrated NameSilo API for Domain Search<br>• Implemented captcha API for form.<br>• Implemented The Maps Embed API for the website. |
 | **Develop your project using a common JavaScript framework such as React, Svelte, or Vue.** | • Developed my website using the framework React. |
 | **Use a regular expression to validate user input and either prevent the invalid input or inform the user about it (in all cases prevent invalid input from being stored or saved).** | • Created a form that does not allow submission without the correct characters. |
 | **Responsive Design** | • Implemented responsive layouts using a mix of Flexbox and Grid.<br>• Created media queries for different screen sizes<br>• Built with mobile-first approach |
@@ -172,7 +172,7 @@ This outline provides a structured approach to developing a responsive web appli
    Create a file named `.env` in the project root directory with the following content:
 
    ```env
-   
+
    NAMESILO_API_KEY=your_api_key_here
    THE_MAPS_EMBED_API_KEY=your_youtube_api_key_here
    PORT=5500
