@@ -75,7 +75,7 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 
 <h2>Integration of Third-Party API</h2>
 <p> 1. Namesilo API: Integrate namesilo API to fetch and display current domains available for purchase.</p>
-<p> 2. Stripe API: Integrate stripe API to purchase products and sign up for subscriptions.</p>
+<p> 2. Captcha API: Added for the form.</p>
 
 <h2>IV. Data Handling and Analysis</h2>
 1. Data Storage, Retrieval, and Visualization 
