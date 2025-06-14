@@ -12,7 +12,40 @@ This is a redesign of my current WordPress website. Always preferred a custom bu
 
 
 
-## Project Organization
+<h1>Project Organization</h1>
+
+| Page | Description |
+|------|-------------|
+| **Landing Page** | The landing page provides users with some information about Warf Designs, and what I do for a living. It will also list the products on the page. |
+| **Sign A Contract** | This page will have a custom contract that can be signed and emailed to me after they have decided to move forward with a website design plan. |
+| **Contact Us** | Will have a form where customers can contact me by email. It will also have a google captcha for verification that the person is not a robot filling in the form. |
+| **Domain Search** | This page will have a custom domain search. Give customers the ability to search for a domain that they want to use. |
+| **About Us** | This page will have information about Warf Designs, and how I got started. |
+| **Digitizing Services** | This page will have information about my digitizing services and pricing. |
+| **Website Design** | This page will showcase our website design services, and websites I've built. It will also detail the pricing and allow customers to pay through stripe for this service. It will require users to sign the contract agreement before proceeding to pay on stripes website. |
+| **Website Hosting** | This page will will discuss briefly what I offer in hosting and there will be a link directing customers to another site I use for managing customers' hosting. |
+| **WordPress Plugins** | This page will list plugins that I have built. |
+| **Videography** | This page will show some work done by Warf Designs, as well as how much it costs for work done by Warf Designs. |
+| **Computer Repair and Assistance** | This page will talk about pricing for various computer repair and assistance in person.  |
+| **MSP Services** | This page will have information about our MSP services for local small businesses. |
+| **Graphic Design Services** | This page will have ads made in the past, logos, as well as other graphic design projects done. |
+| **Our Resume** | This page will have my resume. |
+| **Our Projects** | This page will show websites we've worked on in the past. |
+| **Golden Years Support** | This page will have information about our computers services available for the elderly. |
+| **Security Services** | This page will have information about our security services. Antivirus, VPN, 2FA, and Camera Security options we sell. |
+
+<h1>Capstone Requirements Fulfilled</h1>
+
+
+| Requirement | Implementation |
+|-------------|----------------|
+| **Retrieve data from a third-party API** | • Integrated NameSilo API for Domain Search<br>• Implemented captcha API for form. |
+| **Develop your project using a common JavaScript framework such as React, Svelte, or Vue.** | • Developed my website using the framework React. |
+| **Use a regular expression to validate user input and either prevent the invalid input or inform the user about it (in all cases prevent invalid input from being stored or saved).** | • Created a form that does not allow submission without the correct characters. |
+| **Responsive Design** | • Implemented responsive layouts using Flexbox<br>• Created media queries for different screen sizes<br>• Built with mobile-first approach |
+
+
+
 
 <h1>Project Outline: Responsive Website Re-design of warfdesigns.com</h1>
 
