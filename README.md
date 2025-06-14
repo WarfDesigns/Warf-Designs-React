@@ -1,6 +1,6 @@
 
 
-<h1>Warf Designs Website Re-Design</h1>
+<h1>Warf Designs Website</h1>
 
 Overview:
 
@@ -16,7 +16,7 @@ This is a redesign of my current WordPress website. Always preferred a custom bu
 
 | Page | Description |
 |------|-------------|
-| **Landing Page** | The landing page provides users with some information about Warf Designs, and what I do for a living. It will also list the products on the page. |
+| **Home** | The landing page provides users with some information about Warf Designs, and what I do for a living. It will also list the products on the page. |
 | **Sign A Contract** | This page will have a custom contract that can be signed and emailed to me after they have decided to move forward with a website design plan. |
 | **Contact Us** | Will have a form where customers can contact me by email. It will also have a google captcha for verification that the person is not a robot filling in the form. |
 | **Domain Search** | This page will have a custom domain search. Give customers the ability to search for a domain that they want to use. |
@@ -42,7 +42,7 @@ This is a redesign of my current WordPress website. Always preferred a custom bu
 | **Retrieve data from a third-party API** | • Integrated NameSilo API for Domain Search<br>• Implemented captcha API for form. |
 | **Develop your project using a common JavaScript framework such as React, Svelte, or Vue.** | • Developed my website using the framework React. |
 | **Use a regular expression to validate user input and either prevent the invalid input or inform the user about it (in all cases prevent invalid input from being stored or saved).** | • Created a form that does not allow submission without the correct characters. |
-| **Responsive Design** | • Implemented responsive layouts using Flexbox<br>• Created media queries for different screen sizes<br>• Built with mobile-first approach |
+| **Responsive Design** | • Implemented responsive layouts using a mix of Flexbox and Grid.<br>• Created media queries for different screen sizes<br>• Built with mobile-first approach |
 
 
 
@@ -68,11 +68,10 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
 <h2>III. Feature Implementation</h2>
  1. Selected Features
  <br></br>
-    <p>  - <b>Feature 1:</b> Use a regular expression to validate user input and either prevent the invalid input or inform the user about it (in all cases prevent invalid input from being stored or saved). This will be implemented by using a contact us form.</p>
+    <p>  - <b>Feature 1:</b> Use a regular expression to validate user input and either prevent the invalid input or inform the user about it (in all cases prevent invalid input from being stored or saved).</p>
     <p>  - <b>Feature 2:</b> Visualize data in a user-friendly way (products).</p>
-    <p>  - <b>Feature 3:</b> Retrieve data from a third-party API and display it. This will be implemented by adding an ability for a domain search using namesilo.com's API. Will also use Stripes API to display product information.</p>
-    <p>  - <b>Feature 4:</b> Filter for filtering products using modern UI features.</p>
-    <p>  - <b>Feature 5:</b> Develop the website using React Framework.</p>
+    <p>  - <b>Feature 3:</b> Retrieve data from a third-party API and display it.</p>
+    <p>  - <b>Feature 4:</b> Develop the website using React Framework.</p>
 
 <h2>Integration of Third-Party API</h2>
 <p> 1. Namesilo API: Integrate namesilo API to fetch and display current domains available for purchase.</p>
