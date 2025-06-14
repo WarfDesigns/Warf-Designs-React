@@ -172,7 +172,7 @@ This outline provides a structured approach to developing a responsive web appli
    Create a file named `.env` in the project root directory with the following content:
 
    ```env
-   NUTRITIONIX_APP_ID=your_app_id_here
+   
    NAMESILO_API_KEY=your_api_key_here
    THE_MAPS_EMBED_API_KEY=your_youtube_api_key_here
    PORT=5500
