@@ -43,6 +43,7 @@ This is a redesign of my current WordPress website. Always preferred a custom bu
 | **Develop your project using a common JavaScript framework such as React, Svelte, or Vue.** | • Developed my website using the framework React. |
 | **Use a regular expression to validate user input and either prevent the invalid input or inform the user about it (in all cases prevent invalid input from being stored or saved).** | • Created a form that does not allow submission without the correct characters. |
 | **Responsive Design** | • Implemented responsive layouts using a mix of Flexbox and Grid.<br>• Created media queries for different screen sizes<br>• Built with mobile-first approach |
+| **Create a Node.js web server using Express.js** | • Built a robust Express server with multiple routes<br>• Implemented API endpoints The Map Embed API and NameSilo API. |
 
 
 
