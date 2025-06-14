@@ -4,7 +4,7 @@
 
 Overview:
 
-A Code: You capstone project utilizing 3rd party API's while also highlighting HTML, CSS, and JavaScript abilities.
+A Code: You capstone project utilizing 3rd party API's while also highlighting HTML, CSS, and JavaScript abilities using a React Framework.
 
 Project Overview:
 
