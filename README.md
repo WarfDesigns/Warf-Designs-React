@@ -73,9 +73,10 @@ Tools and Technologies: HTML, CSS (Grid, Flexbox, Media Queries), JavaScript, PH
  1. Selected Features
  <br></br>
     <p>  - <b>Feature 1:</b> Use a regular expression to validate user input and either prevent the invalid input or inform the user about it (in all cases prevent invalid input from being stored or saved).</p>
-    <p>  - <b>Feature 2:</b> Visualize data in a user-friendly way (products).</p>
+    <p>  - <b>Feature 2:</b> Responsive Design</p>
     <p>  - <b>Feature 3:</b> Retrieve data from a third-party API and display it.</p>
     <p>  - <b>Feature 4:</b> Develop the website using React Framework.</p>
+    <p>  - <b>Feature 5:</b> Create a Node.js web server using Express.js</p>
 
 <h2>Integration of Third-Party API</h2>
 <p> 1. Namesilo API: Integrate namesilo API to fetch and display current domains available for purchase.</p>
