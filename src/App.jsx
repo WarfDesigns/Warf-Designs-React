@@ -1,5 +1,11 @@
-import Header from '../src/Modules/Header/Header.jsx'
-import Footer from '../src/Modules/Footer/footer.jsx'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About-Us.html';
+import Contact from './pages/Contact-Us.html';
+import Accessibility from './pages/Accessibility.html';
+import Header from '../src/Modules/Header/Header.jsx';
+import Footer from '../src/Modules/Footer/footer.jsx';
 
 function App() {
 
